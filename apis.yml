@@ -1,7 +1,24 @@
 aid: sabbar
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/sabbar.png
 name: Sabbar
-description: Sabbar is a company surfaced as a portfolio company of 500-global and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: Sabbar is a leading local employment and recruitment platform in Saudi Arabia
+  that connects job seekers with employers across many sectors. Job seekers search
+  listings, build a free CV, and apply to roles, while employers use subscription-based
+  recruitment packages and candidate matching. The platform reports more than 12,000
+  companies and over 1 million Saudi and non-Saudi job seekers, with iOS and Android
+  mobile apps. It was surfaced as a portfolio company of 500 Global and added to the
+  API Evangelist network. No public developer API surface was found during enrichment.
 url: https://raw.githubusercontent.com/api-evangelist/sabbar/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,9 +28,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
+- Employment
+- Recruitment
+- Jobs
+- Hiring
+- Human Resources
+- Saudi Arabia
+- Marketplace
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -21,5 +45,24 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/sabbar-domain-security.yml
 - type: Website
   url: https://sabbar.com
+- type: Blog
+  url: https://sabbar.com/ar/blog
+- type: About
+  url: https://sabbar.com/ar/about
+- type: Support
+  url: https://sabbar.com/ar/contact-us
+- type: PrivacyPolicy
+  url: https://sabbar.com/ar/privacy-policy
+- type: TermsOfService
+  url: https://sabbar.com/ar/terms-and-conditions
+- type: SignUp
+  url: https://sabbar.com/ar/employers
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
